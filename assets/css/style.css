@@ -1,0 +1,13 @@
+body {
+    background-color: brown;
+}
+.question-answer-area {
+    margin: 0 400px;
+    background-color: azure;
+    height:500px;
+    width:600px;
+}
+.q-a li{
+    font-size: 20px;
+    text-decoration: none;
+}
