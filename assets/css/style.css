@@ -21,8 +21,9 @@ h1, div {
     width: fit-content;
     margin: 0 auto;
     padding: 40px;
-    border-radius: 5px;
-    
+    border-radius: 10px;
+
+    display:none;
 }
 
 .question-answer-area button {
@@ -30,7 +31,8 @@ h1, div {
     border-color: #a2a9ab;
 
 }
-button {
+
+.btn {
     padding: 10px;
     margin: 10px;
     
@@ -39,3 +41,63 @@ button {
     display: inline-block;
     margin: 2rem;
  }
+
+.question-answer1 {
+    display: block;
+
+    background-color: #a2a9ab;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer1 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}
+
+.question-answer2 {
+    display: none;
+
+    background-color: #a2a9ab;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer2 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}  
+
+.question-answer3 {
+    display: none;
+
+    background-color: #a2a9ab;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer3 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+} 
+
+.question-answer4 {
+    display: none;
+
+    background-color: #a2a9ab;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer4 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}    
