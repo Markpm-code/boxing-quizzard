@@ -100,4 +100,94 @@ h1, div {
 .question-answer4 button {
     border-radius: 10px;
     border-color: #a2a9ab;
+}
+/*Level2 question and answer style*/
+.question-answer5 {
+    display: none;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer5 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+} 
+
+.question-answer6 {
+    display: none;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer6 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}  
+
+.question-answer7 {
+    display: none;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer7 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}   
+
+.question-answer8 {
+    display: none;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer8 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}  
+
+.question-answer9 {
+    display: none;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer9 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}   
+
+.question-answer10 {
+    display: none;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer10 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
 }    
