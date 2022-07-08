@@ -220,7 +220,7 @@ button:hover{
 /*Level3/Knockout Puch question and answer style*/
 
 .question-answer11 {
-    display: block;
+    display: none;
 
     background-color: #a2a9ab;
     max-width: 600px;
@@ -280,7 +280,7 @@ button:hover{
 }    
 
 .question-answer15 {
-    display: block;
+    display: none;
 
     background-color: #a2a9ab;
     max-width: 600px;
