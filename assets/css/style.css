@@ -77,6 +77,11 @@ h1, div {
     border-color: #a2a9ab;
 }
 
+button:hover{
+    background-color: #a8232f;
+    color: white;
+}
+
 .question-answer2 {
     display: none;
 
@@ -211,3 +216,95 @@ h1, div {
     border-radius: 10px;
     border-color: #a2a9ab;
 }    
+
+/*Level3/Knockout Puch question and answer style*/
+
+.question-answer11 {
+    display: block;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer11 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}    
+
+.question-answer12 {
+    display: none;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer12 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}    
+
+.question-answer13 {
+    display: none;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer13 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}    
+
+.question-answer14 {
+    display: none;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer14 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}    
+
+.question-answer15 {
+    display: block;
+
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.question-answer15 button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+}    
+
+#ans-fld {
+    border-radius: 5px;
+    border-color: #a2a9ab;
+    
+
+    height: 25px;
+    font-size: 15px;
+}
+
+#ans-fld:hover {
+    background-color:#a8232f;
+    color: white; 
+}
+ 
