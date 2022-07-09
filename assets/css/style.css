@@ -8,14 +8,53 @@ body {
     font-family: 'Gulzar' sans-serif;
     
 }
+
+audio {
+    float:right;
+    margin-right: 20px;;
+}
 h1{
     font-size: 50px;
     color: white;
 }
 h1, div {
     text-align: center;
+    display: none;
 }        
 
+/*Welcome div*/
+.welcome {
+    background-color: #a2a9ab;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+
+    display:block;
+}
+
+.welcome h1 {
+    display: block;
+    margin-top: -10px;
+}
+
+.welcome p{
+    font-size: 2rem;
+    color: white;
+    margin:0 auto;
+}
+
+.welcome button {
+    font-size: 2rem;
+
+    border-radius: 10px;
+    border-color: #a8232f;
+
+    padding: 10px;
+    background-color: #a2a9ab;
+    color: white;
+    margin-top: 10px;
+}
 .correct {
     background-color:  #a2a9ab;
     color: white;
@@ -63,7 +102,7 @@ h1, div {
  }
 
 .question-answer1 {
-    display: block;
+    display: none;
 
     background-color: #a2a9ab;
     width: fit-content;
