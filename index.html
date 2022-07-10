@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gulzar&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Boxing Quizzard</title>
@@ -22,13 +23,14 @@
     <div class="music">
         <audio src="assets/audio/Eye Of The Tiger Intro.mp3.mp3" data type="mp3." controls loop></audio>
     </div>
-    <div class="welcome" id="intro">
+    <div class="welcome hide" id="intro">
         <h1>Welcome Boxers!</h1>
-        <p>'I  want a clean fight'</p>
+        <p>"I  want a clean fight"</p>
         <p>Are you ready ....?</p>
         <hr>
-        <button>Let's box to start the game!</button>
+        <button id="start-btn">Let's box to start the game!</button>
     </div>
+    <div></div>
     
     <!--Level1/Jab questions and answers-->
     <div class="question-answer-area">
@@ -177,6 +179,7 @@
         <p class="correct">Correct Answers:<span>0</span></p>
         <p class="incorrect">Incorrect Answers:<span>0</span></p>
     </div>
+
     <div>
         <footer>
             <a></a>
