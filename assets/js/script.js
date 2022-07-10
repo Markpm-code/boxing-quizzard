@@ -1,17 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
-    let buttons = document.getElementsByTagName("button");
+var button = document.getElementById("start-btn");
 
-    for (let button of buttons) {
-        button.addEventListener("click", function() {
-            if (this.getAttribute("data-type") === "Let's box to start the game!") {
-                alert("You clicked Let's box to start the game!");
-            } else {
-                let gameType = this.getAttribute("data-type");
-                alert(`You clicked ${gameType}`)
-            }
-        })
+button.onclick = function() {
+    var div = document.getElementById("intro");
+    if (div.style.display !== "none") {
+        div.style.display = "none";
     }
-})
-
-
+    else {
+        div.style.display = "block";
+    }
+}
 
