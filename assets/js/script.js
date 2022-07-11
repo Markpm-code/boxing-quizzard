@@ -1,3 +1,4 @@
+/**welcome div onclick learnt from stack  overflow */
 var button = document.getElementById("start-btn");
 
 button.onclick = function() {
@@ -9,4 +10,6 @@ button.onclick = function() {
         div.style.display = "block";
     }
 }
+
+
 
