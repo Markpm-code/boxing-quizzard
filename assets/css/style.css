@@ -78,23 +78,9 @@ h1{
     border-radius: 10px;
 
     font-size: 20px;
+    
 }
 
-.question-answer-area {
-    background-color: #a2a9ab;
-    width: fit-content;
-    margin: 0 auto;
-    padding: 40px;
-    border-radius: 10px;
-
-    display:none;
-}
-
-.question-answer-area button {
-    border-radius: 10px;
-    border-color: #a2a9ab;
-
-}
 
 .btn {
     padding: 10px;
@@ -110,8 +96,24 @@ h1{
  .score-area p{
     display: inline-block;
     margin: 2rem;
-    
+
  }
+
+ .question-answer-area {
+    background-color: #a2a9ab;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+
+    display:none;
+}
+
+.question-answer-area button {
+    border-radius: 10px;
+    border-color: #a2a9ab;
+
+}
 
 .question-answer1 {
     display: none;
