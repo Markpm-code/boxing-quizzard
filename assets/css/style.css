@@ -11,6 +11,7 @@ body {
 
 .music {
   display: block;
+  text-align: center;
 }
 h1{
     font-size: 50px;
