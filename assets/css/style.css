@@ -54,6 +54,12 @@ h1{
     color: white;
     margin-top: 10px;
 }
+
+.hide {
+    text-align: center;
+}
+
+
 .correct {
     background-color:  #a2a9ab;
     color: white;
@@ -98,6 +104,7 @@ h1{
  .score-area p{
     display: inline-block;
     margin: 2rem;
+    align-items: center;
  }
 
 .question-answer1 {
@@ -346,3 +353,4 @@ button:hover{
     color: white; 
 }
  
+
