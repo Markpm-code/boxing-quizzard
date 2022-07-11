@@ -10,7 +10,10 @@ button.onclick = function() {
         div.style.display = "block";
     }
 }
-const myElementIWantToUnHide = document.getElementById('unhide');
+const myElementIWantToUnHide = document.getElementById('start-btn');
+    
+     button.onclick = function() {
+     const div = document.getElementById("unhide");
     
     if (div.style.display !=="none") {
         div.style.display = "none";
@@ -19,5 +22,5 @@ const myElementIWantToUnHide = document.getElementById('unhide');
         div.style.display = "block";
     }
 
-
+    }
 
