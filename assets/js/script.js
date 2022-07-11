@@ -10,6 +10,14 @@ button.onclick = function() {
         div.style.display = "block";
     }
 }
+const myElementIWantToUnHide = document.getElementById('unhide');
+    
+    if (div.style.display !=="none") {
+        div.style.display = "none";
+
+    }else {
+        div.style.display = "block";
+    }
 
 
 

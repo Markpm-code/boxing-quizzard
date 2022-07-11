@@ -17,10 +17,7 @@ h1{
     color: white;
     text-align: center;
 }
-div {
-    text-align: center;
-    display: none;
-}        
+       
 
 /*Welcome div*/
 .welcome {
