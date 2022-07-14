@@ -86,10 +86,20 @@ h2, h3 {
 }
 
 
+button:hover{
+    background-color: #a8232f;
+    color: white;
+}
+
+div button {
+    justify-content: center;
+    align-items: center;
+}
+
 .btn {
     padding: 10px;
     margin: 10px;
-
+    
 }
 
 .score-area{
@@ -102,15 +112,16 @@ h2, h3 {
     margin: 2rem;
 
  }
-
+/* text align added*/
  .question-answer-area {
+    display:none;
+
     background-color: #a2a9ab;
     width: fit-content;
     margin: 0 auto;
     padding: 40px;
     border-radius: 10px;
-
-    display:none;
+    text-align: center;
 }
 
 .question-answer-area button {
@@ -134,10 +145,6 @@ h2, h3 {
     border-color: #a2a9ab;
 }
 
-button:hover{
-    background-color: #a8232f;
-    color: white;
-}
 
 .question-answer2 {
     display: none;
