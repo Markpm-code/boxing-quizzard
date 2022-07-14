@@ -1,26 +1,26 @@
 /**welcome div onclick learnt from stack  overflow */
-var button = document.getElementById("start-btn");
+let startButton = document.getElementById("start-btn");
+let welcome = document.getElementById("intro");
+let firstQuestion = document.getElementById("unhide");
 
-button.onclick = function() {
-    var div = document.getElementById("intro");
-    if (div.style.display !== "none") {
-        div.style.display = "none";
+startButton.onclick = function() {
+    welcome = document.getElementById("intro");
+    if (welcome.style.display !== "none") {
+        welcome.style.display = "none";
     }
     else {
-        div.style.display = "block";
+        welcome.style.display = "none"
     }
 }
-const myElementIWantToUnHide = document.getElementById('start-btn');
-    
-     button.onclick = function() {
-     const div = document.getElementById("unhide");
-    
-    if (div.style.display !=="none") {
-        div.style.display = "none";
+startButton.onclick = function() {
+    let firstQuestion = document.getElementById("unhide");
+   
+   if (firstQuestion.style.display !=="none") {
+       firstQuestion.style.display = "none";
 
-    }else {
-        div.style.display = "block";
-    }
+   }else {
+       firstQuestion.style.display = "block";
+   }
 
-    }
+   }
 
